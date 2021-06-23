@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.4.3)
+  - CHIPageControl/Jaloro (0.2)
+  - DTTextField (0.4.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - OTPFieldView (1.0.1)
+  - SCPageControl (0.4.0)
+  - SwiftyJSON (4.3.0)
+  - UICheckbox.Swift (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - CHIPageControl/Jaloro
+  - DTTextField
+  - IQKeyboardManagerSwift
+  - OTPFieldView
+  - SCPageControl
+  - SwiftyJSON (~> 4.0)
+  - UICheckbox.Swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CHIPageControl
+    - DTTextField
+    - IQKeyboardManagerSwift
+    - OTPFieldView
+    - SCPageControl
+    - SwiftyJSON
+    - UICheckbox.Swift
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  CHIPageControl: a787bf7205c9b7e7fbfc412be36c5e8636b68f86
+  DTTextField: 4b9bab01faec50a98d42d24ba39ed122461f866f
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  OTPFieldView: 700a752fe62c41d1c4914c78aa500fb30d97c255
+  SCPageControl: 8a8dfbba7d7d8c66487a317cb4c4578a7e4af27a
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  UICheckbox.Swift: 85715689206fac5bae38b308f19c2a3e00442c3b
+
+PODFILE CHECKSUM: 228deaf3ae58c49146ad279af00bb9ce95f15d7f
+
+COCOAPODS: 1.9.3

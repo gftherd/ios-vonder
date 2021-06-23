@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D5B094CC9B02512CEF9B4A7 /* Pods_vonder_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE269F307E392785A0E5491F /* Pods_vonder_app.framework */; };
+		6916513826746DD800761889 /* ServiceMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6916513726746DD800761889 /* ServiceMain.swift */; };
+		6916513D26746E2600761889 /* MessageLoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6916513C26746E2600761889 /* MessageLoginResponse.swift */; };
+		694B389C266E69ED009E7D2D /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B389B266E69ED009E7D2D /* SearchController.swift */; };
+		694B38A1266E6A03009E7D2D /* SearchProblemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B38A0266E6A03009E7D2D /* SearchProblemController.swift */; };
+		694B38A7266E8736009E7D2D /* EmpIDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B38A6266E8736009E7D2D /* EmpIDController.swift */; };
+		694B38AF266E8750009E7D2D /* EmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B38AE266E8750009E7D2D /* EmailController.swift */; };
+		694B38B4266E87A0009E7D2D /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B38B3266E87A0009E7D2D /* CardController.swift */; };
+		694B38B9266E87B1009E7D2D /* UsernameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B38B8266E87B1009E7D2D /* UsernameController.swift */; };
+		694B38BE266E87BC009E7D2D /* PasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B38BD266E87BC009E7D2D /* PasswordController.swift */; };
+		694B38C3266E87D8009E7D2D /* TelephoneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B38C2266E87D8009E7D2D /* TelephoneController.swift */; };
+		694B38C8266E87F7009E7D2D /* PinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B38C7266E87F7009E7D2D /* PinController.swift */; };
+		694B38CD266E8822009E7D2D /* EmpOtpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694B38CC266E8822009E7D2D /* EmpOtpController.swift */; };
+		69F0C0A0266D241300FCF2D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C09F266D241300FCF2D5 /* AppDelegate.swift */; };
+		69F0C0A2266D241300FCF2D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C0A1266D241300FCF2D5 /* SceneDelegate.swift */; };
+		69F0C0A7266D241300FCF2D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F0C0A5266D241300FCF2D5 /* Main.storyboard */; };
+		69F0C0AA266D241300FCF2D5 /* vonder_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C0A8266D241300FCF2D5 /* vonder_app.xcdatamodeld */; };
+		69F0C0AC266D241600FCF2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F0C0AB266D241600FCF2D5 /* Assets.xcassets */; };
+		69F0C0AF266D241600FCF2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F0C0AD266D241600FCF2D5 /* LaunchScreen.storyboard */; };
+		69F0C0BA266D241600FCF2D5 /* vonder_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C0B9266D241600FCF2D5 /* vonder_appTests.swift */; };
+		69F0C0C5266D241600FCF2D5 /* vonder_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C0C4266D241600FCF2D5 /* vonder_appUITests.swift */; };
+		69F0C0E1266D277600FCF2D5 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F0C0E0266D277500FCF2D5 /* Slide.xib */; };
+		69F0C0E6266D278400FCF2D5 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C0E5266D278400FCF2D5 /* Slide.swift */; };
+		69F0C0EB266D27B200FCF2D5 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C0EA266D27B200FCF2D5 /* Label.swift */; };
+		69F0C0F0266D27BB00FCF2D5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C0EF266D27BB00FCF2D5 /* Card.swift */; };
+		69F0C0F5266D27C300FCF2D5 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C0F4266D27C300FCF2D5 /* Button.swift */; };
+		69F0C0FA266D27CE00FCF2D5 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C0F9266D27CE00FCF2D5 /* TextField.swift */; };
+		69F0C0FF266D27E000FCF2D5 /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C0FE266D27E000FCF2D5 /* RoundedCornerView.swift */; };
+		69F0C10D266D287100FCF2D5 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69F0C10C266D287100FCF2D5 /* Roboto-Black.ttf */; };
+		69F0C112266D287C00FCF2D5 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69F0C111266D287C00FCF2D5 /* Roboto-Medium.ttf */; };
+		69F0C117266D288600FCF2D5 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69F0C116266D288600FCF2D5 /* Roboto-Regular.ttf */; };
+		69F0C11C266D2C6100FCF2D5 /* AlternativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C11B266D2C6100FCF2D5 /* AlternativeController.swift */; };
+		69F0C139266D347B00FCF2D5 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C138266D347B00FCF2D5 /* OnboardingController.swift */; };
+		69F0C13E266D37DA00FCF2D5 /* PolicyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C13D266D37DA00FCF2D5 /* PolicyController.swift */; };
+		69F0C14B266D480600FCF2D5 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C14A266D480600FCF2D5 /* ImageViewCell.swift */; };
+		69F0C168266DC37200FCF2D5 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C167266DC37200FCF2D5 /* LoginController.swift */; };
+		69F0C16D266DCB6F00FCF2D5 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C16C266DCB6F00FCF2D5 /* RegisterController.swift */; };
+		69F0C189266DD52A00FCF2D5 /* OTPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C188266DD52A00FCF2D5 /* OTPController.swift */; };
+		69F0C1A1266E13C800FCF2D5 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C1A0266E13C700FCF2D5 /* CustomNavigationController.swift */; };
+		69F0C1A6266E1B9C00FCF2D5 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C1A5266E1B9C00FCF2D5 /* HamburgerViewController.swift */; };
+		69F0C1B3266E1C8500FCF2D5 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C1B2266E1C8500FCF2D5 /* MovieTableViewCell.swift */; };
+		69F0C1B8266E1CC600FCF2D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0C1B7266E1CC600FCF2D5 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69F0C0B6266D241600FCF2D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69F0C094266D241300FCF2D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69F0C09B266D241300FCF2D5;
+			remoteInfo = "vonder-app";
+		};
+		69F0C0C1266D241600FCF2D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69F0C094266D241300FCF2D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69F0C09B266D241300FCF2D5;
+			remoteInfo = "vonder-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6916513726746DD800761889 /* ServiceMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMain.swift; sourceTree = "<group>"; };
+		6916513C26746E2600761889 /* MessageLoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageLoginResponse.swift; sourceTree = "<group>"; };
+		694B389B266E69ED009E7D2D /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		694B38A0266E6A03009E7D2D /* SearchProblemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProblemController.swift; sourceTree = "<group>"; };
+		694B38A6266E8736009E7D2D /* EmpIDController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpIDController.swift; sourceTree = "<group>"; };
+		694B38AE266E8750009E7D2D /* EmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailController.swift; sourceTree = "<group>"; };
+		694B38B3266E87A0009E7D2D /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+		694B38B8266E87B1009E7D2D /* UsernameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameController.swift; sourceTree = "<group>"; };
+		694B38BD266E87BC009E7D2D /* PasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordController.swift; sourceTree = "<group>"; };
+		694B38C2266E87D8009E7D2D /* TelephoneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelephoneController.swift; sourceTree = "<group>"; };
+		694B38C7266E87F7009E7D2D /* PinController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinController.swift; sourceTree = "<group>"; };
+		694B38CC266E8822009E7D2D /* EmpOtpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpOtpController.swift; sourceTree = "<group>"; };
+		69DF25ECFC7A0E39476B2208 /* Pods-vonder-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vonder-app.release.xcconfig"; path = "Target Support Files/Pods-vonder-app/Pods-vonder-app.release.xcconfig"; sourceTree = "<group>"; };
+		69F0C09C266D241300FCF2D5 /* vonder-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vonder-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F0C09F266D241300FCF2D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69F0C0A1266D241300FCF2D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		69F0C0A6266D241300FCF2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69F0C0A9266D241300FCF2D5 /* vonder_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vonder_app.xcdatamodel; sourceTree = "<group>"; };
+		69F0C0AB266D241600FCF2D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69F0C0AE266D241600FCF2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69F0C0B0266D241600FCF2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F0C0B5266D241600FCF2D5 /* vonder-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vonder-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F0C0B9266D241600FCF2D5 /* vonder_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vonder_appTests.swift; sourceTree = "<group>"; };
+		69F0C0BB266D241600FCF2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F0C0C0266D241600FCF2D5 /* vonder-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vonder-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F0C0C4266D241600FCF2D5 /* vonder_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vonder_appUITests.swift; sourceTree = "<group>"; };
+		69F0C0C6266D241600FCF2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F0C0E0266D277500FCF2D5 /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		69F0C0E5266D278400FCF2D5 /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		69F0C0EA266D27B200FCF2D5 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		69F0C0EF266D27BB00FCF2D5 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		69F0C0F4266D27C300FCF2D5 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		69F0C0F9266D27CE00FCF2D5 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		69F0C0FE266D27E000FCF2D5 /* RoundedCornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
+		69F0C10C266D287100FCF2D5 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		69F0C111266D287C00FCF2D5 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		69F0C116266D288600FCF2D5 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		69F0C11B266D2C6100FCF2D5 /* AlternativeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeController.swift; sourceTree = "<group>"; };
+		69F0C138266D347B00FCF2D5 /* OnboardingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnboardingController.swift; path = "../../vonder-ios-app/vonder-app/OnboardingController.swift"; sourceTree = "<group>"; };
+		69F0C13D266D37DA00FCF2D5 /* PolicyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyController.swift; sourceTree = "<group>"; };
+		69F0C14A266D480600FCF2D5 /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		69F0C167266DC37200FCF2D5 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		69F0C16C266DCB6F00FCF2D5 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		69F0C188266DD52A00FCF2D5 /* OTPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPController.swift; sourceTree = "<group>"; };
+		69F0C1A0266E13C700FCF2D5 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		69F0C1A5266E1B9C00FCF2D5 /* HamburgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
+		69F0C1B2266E1C8500FCF2D5 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		69F0C1B7266E1CC600FCF2D5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE269F307E392785A0E5491F /* Pods_vonder_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vonder_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DC8CDE870DF535A73CCB28 /* Pods-vonder-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vonder-app.debug.xcconfig"; path = "Target Support Files/Pods-vonder-app/Pods-vonder-app.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69F0C099266D241300FCF2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5B094CC9B02512CEF9B4A7 /* Pods_vonder_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F0C0B2266D241600FCF2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F0C0BD266D241600FCF2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ADE6C06D7581AE301C4C141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE269F307E392785A0E5491F /* Pods_vonder_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6916512D26746D1400761889 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6916513C26746E2600761889 /* MessageLoginResponse.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6916513626746DC800761889 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				6916513726746DD800761889 /* ServiceMain.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		694B389A266E69D1009E7D2D /* account */ = {
+			isa = PBXGroup;
+			children = (
+				694B38A5266E8717009E7D2D /* sign-in */,
+				694B389B266E69ED009E7D2D /* SearchController.swift */,
+				694B38A0266E6A03009E7D2D /* SearchProblemController.swift */,
+			);
+			path = account;
+			sourceTree = "<group>";
+		};
+		694B38A5266E8717009E7D2D /* sign-in */ = {
+			isa = PBXGroup;
+			children = (
+				694B38A6266E8736009E7D2D /* EmpIDController.swift */,
+				694B38AE266E8750009E7D2D /* EmailController.swift */,
+				694B38B3266E87A0009E7D2D /* CardController.swift */,
+				694B38B8266E87B1009E7D2D /* UsernameController.swift */,
+				694B38BD266E87BC009E7D2D /* PasswordController.swift */,
+				694B38C2266E87D8009E7D2D /* TelephoneController.swift */,
+				694B38C7266E87F7009E7D2D /* PinController.swift */,
+				694B38CC266E8822009E7D2D /* EmpOtpController.swift */,
+			);
+			path = "sign-in";
+			sourceTree = "<group>";
+		};
+		69F0C093266D241300FCF2D5 = {
+			isa = PBXGroup;
+			children = (
+				69F0C09E266D241300FCF2D5 /* vonder-app */,
+				69F0C0B8266D241600FCF2D5 /* vonder-appTests */,
+				69F0C0C3266D241600FCF2D5 /* vonder-appUITests */,
+				69F0C09D266D241300FCF2D5 /* Products */,
+				A7EDCBB93CF994370D232965 /* Pods */,
+				5ADE6C06D7581AE301C4C141 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69F0C09D266D241300FCF2D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69F0C09C266D241300FCF2D5 /* vonder-app.app */,
+				69F0C0B5266D241600FCF2D5 /* vonder-appTests.xctest */,
+				69F0C0C0266D241600FCF2D5 /* vonder-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69F0C09E266D241300FCF2D5 /* vonder-app */ = {
+			isa = PBXGroup;
+			children = (
+				6916513626746DC800761889 /* service */,
+				6916512D26746D1400761889 /* model */,
+				694B389A266E69D1009E7D2D /* account */,
+				69F0C0DF266D270100FCF2D5 /* views */,
+				69F0C0DE266D26F500FCF2D5 /* view */,
+				69F0C0DC266D269800FCF2D5 /* fonts */,
+				69F0C09F266D241300FCF2D5 /* AppDelegate.swift */,
+				69F0C1B7266E1CC600FCF2D5 /* ViewController.swift */,
+				69F0C0A1266D241300FCF2D5 /* SceneDelegate.swift */,
+				69F0C0A5266D241300FCF2D5 /* Main.storyboard */,
+				69F0C138266D347B00FCF2D5 /* OnboardingController.swift */,
+				69F0C0AB266D241600FCF2D5 /* Assets.xcassets */,
+				69F0C0AD266D241600FCF2D5 /* LaunchScreen.storyboard */,
+				69F0C0B0266D241600FCF2D5 /* Info.plist */,
+				69F0C0A8266D241300FCF2D5 /* vonder_app.xcdatamodeld */,
+				69F0C11B266D2C6100FCF2D5 /* AlternativeController.swift */,
+				69F0C1A5266E1B9C00FCF2D5 /* HamburgerViewController.swift */,
+				69F0C13D266D37DA00FCF2D5 /* PolicyController.swift */,
+				69F0C14A266D480600FCF2D5 /* ImageViewCell.swift */,
+				69F0C167266DC37200FCF2D5 /* LoginController.swift */,
+				69F0C16C266DCB6F00FCF2D5 /* RegisterController.swift */,
+				69F0C188266DD52A00FCF2D5 /* OTPController.swift */,
+				69F0C1A0266E13C700FCF2D5 /* CustomNavigationController.swift */,
+				69F0C1B2266E1C8500FCF2D5 /* MovieTableViewCell.swift */,
+			);
+			path = "vonder-app";
+			sourceTree = "<group>";
+		};
+		69F0C0B8266D241600FCF2D5 /* vonder-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				69F0C0B9266D241600FCF2D5 /* vonder_appTests.swift */,
+				69F0C0BB266D241600FCF2D5 /* Info.plist */,
+			);
+			path = "vonder-appTests";
+			sourceTree = "<group>";
+		};
+		69F0C0C3266D241600FCF2D5 /* vonder-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69F0C0C4266D241600FCF2D5 /* vonder_appUITests.swift */,
+				69F0C0C6266D241600FCF2D5 /* Info.plist */,
+			);
+			path = "vonder-appUITests";
+			sourceTree = "<group>";
+		};
+		69F0C0DC266D269800FCF2D5 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				69F0C116266D288600FCF2D5 /* Roboto-Regular.ttf */,
+				69F0C111266D287C00FCF2D5 /* Roboto-Medium.ttf */,
+				69F0C10C266D287100FCF2D5 /* Roboto-Black.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		69F0C0DE266D26F500FCF2D5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				69F0C0FE266D27E000FCF2D5 /* RoundedCornerView.swift */,
+				69F0C0F9266D27CE00FCF2D5 /* TextField.swift */,
+				69F0C0F4266D27C300FCF2D5 /* Button.swift */,
+				69F0C0EF266D27BB00FCF2D5 /* Card.swift */,
+				69F0C0EA266D27B200FCF2D5 /* Label.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		69F0C0DF266D270100FCF2D5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				69F0C0E5266D278400FCF2D5 /* Slide.swift */,
+				69F0C0E0266D277500FCF2D5 /* Slide.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A7EDCBB93CF994370D232965 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0DC8CDE870DF535A73CCB28 /* Pods-vonder-app.debug.xcconfig */,
+				69DF25ECFC7A0E39476B2208 /* Pods-vonder-app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69F0C09B266D241300FCF2D5 /* vonder-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F0C0C9266D241600FCF2D5 /* Build configuration list for PBXNativeTarget "vonder-app" */;
+			buildPhases = (
+				876362942D52E34690EB2654 /* [CP] Check Pods Manifest.lock */,
+				69F0C098266D241300FCF2D5 /* Sources */,
+				69F0C099266D241300FCF2D5 /* Frameworks */,
+				69F0C09A266D241300FCF2D5 /* Resources */,
+				387A7FD8014A0AFF291BB015 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vonder-app";
+			productName = "vonder-app";
+			productReference = 69F0C09C266D241300FCF2D5 /* vonder-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69F0C0B4266D241600FCF2D5 /* vonder-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F0C0CC266D241600FCF2D5 /* Build configuration list for PBXNativeTarget "vonder-appTests" */;
+			buildPhases = (
+				69F0C0B1266D241600FCF2D5 /* Sources */,
+				69F0C0B2266D241600FCF2D5 /* Frameworks */,
+				69F0C0B3266D241600FCF2D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69F0C0B7266D241600FCF2D5 /* PBXTargetDependency */,
+			);
+			name = "vonder-appTests";
+			productName = "vonder-appTests";
+			productReference = 69F0C0B5266D241600FCF2D5 /* vonder-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69F0C0BF266D241600FCF2D5 /* vonder-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F0C0CF266D241600FCF2D5 /* Build configuration list for PBXNativeTarget "vonder-appUITests" */;
+			buildPhases = (
+				69F0C0BC266D241600FCF2D5 /* Sources */,
+				69F0C0BD266D241600FCF2D5 /* Frameworks */,
+				69F0C0BE266D241600FCF2D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69F0C0C2266D241600FCF2D5 /* PBXTargetDependency */,
+			);
+			name = "vonder-appUITests";
+			productName = "vonder-appUITests";
+			productReference = 69F0C0C0266D241600FCF2D5 /* vonder-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69F0C094266D241300FCF2D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					69F0C09B266D241300FCF2D5 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					69F0C0B4266D241600FCF2D5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 69F0C09B266D241300FCF2D5;
+					};
+					69F0C0BF266D241600FCF2D5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 69F0C09B266D241300FCF2D5;
+					};
+				};
+			};
+			buildConfigurationList = 69F0C097266D241300FCF2D5 /* Build configuration list for PBXProject "vonder-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69F0C093266D241300FCF2D5;
+			productRefGroup = 69F0C09D266D241300FCF2D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69F0C09B266D241300FCF2D5 /* vonder-app */,
+				69F0C0B4266D241600FCF2D5 /* vonder-appTests */,
+				69F0C0BF266D241600FCF2D5 /* vonder-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69F0C09A266D241300FCF2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F0C0AF266D241600FCF2D5 /* LaunchScreen.storyboard in Resources */,
+				69F0C117266D288600FCF2D5 /* Roboto-Regular.ttf in Resources */,
+				69F0C0AC266D241600FCF2D5 /* Assets.xcassets in Resources */,
+				69F0C112266D287C00FCF2D5 /* Roboto-Medium.ttf in Resources */,
+				69F0C10D266D287100FCF2D5 /* Roboto-Black.ttf in Resources */,
+				69F0C0A7266D241300FCF2D5 /* Main.storyboard in Resources */,
+				69F0C0E1266D277600FCF2D5 /* Slide.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F0C0B3266D241600FCF2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F0C0BE266D241600FCF2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		387A7FD8014A0AFF291BB015 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vonder-app/Pods-vonder-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vonder-app/Pods-vonder-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vonder-app/Pods-vonder-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		876362942D52E34690EB2654 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vonder-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69F0C098266D241300FCF2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F0C0AA266D241300FCF2D5 /* vonder_app.xcdatamodeld in Sources */,
+				69F0C0F0266D27BB00FCF2D5 /* Card.swift in Sources */,
+				6916513D26746E2600761889 /* MessageLoginResponse.swift in Sources */,
+				694B38C8266E87F7009E7D2D /* PinController.swift in Sources */,
+				69F0C0F5266D27C300FCF2D5 /* Button.swift in Sources */,
+				694B38B9266E87B1009E7D2D /* UsernameController.swift in Sources */,
+				69F0C168266DC37200FCF2D5 /* LoginController.swift in Sources */,
+				69F0C0EB266D27B200FCF2D5 /* Label.swift in Sources */,
+				69F0C11C266D2C6100FCF2D5 /* AlternativeController.swift in Sources */,
+				69F0C0FF266D27E000FCF2D5 /* RoundedCornerView.swift in Sources */,
+				6916513826746DD800761889 /* ServiceMain.swift in Sources */,
+				69F0C0A0266D241300FCF2D5 /* AppDelegate.swift in Sources */,
+				69F0C14B266D480600FCF2D5 /* ImageViewCell.swift in Sources */,
+				69F0C1B3266E1C8500FCF2D5 /* MovieTableViewCell.swift in Sources */,
+				694B389C266E69ED009E7D2D /* SearchController.swift in Sources */,
+				694B38C3266E87D8009E7D2D /* TelephoneController.swift in Sources */,
+				69F0C139266D347B00FCF2D5 /* OnboardingController.swift in Sources */,
+				69F0C0FA266D27CE00FCF2D5 /* TextField.swift in Sources */,
+				69F0C1A1266E13C800FCF2D5 /* CustomNavigationController.swift in Sources */,
+				69F0C189266DD52A00FCF2D5 /* OTPController.swift in Sources */,
+				694B38CD266E8822009E7D2D /* EmpOtpController.swift in Sources */,
+				694B38B4266E87A0009E7D2D /* CardController.swift in Sources */,
+				694B38A1266E6A03009E7D2D /* SearchProblemController.swift in Sources */,
+				69F0C16D266DCB6F00FCF2D5 /* RegisterController.swift in Sources */,
+				69F0C13E266D37DA00FCF2D5 /* PolicyController.swift in Sources */,
+				69F0C1A6266E1B9C00FCF2D5 /* HamburgerViewController.swift in Sources */,
+				694B38A7266E8736009E7D2D /* EmpIDController.swift in Sources */,
+				694B38AF266E8750009E7D2D /* EmailController.swift in Sources */,
+				694B38BE266E87BC009E7D2D /* PasswordController.swift in Sources */,
+				69F0C1B8266E1CC600FCF2D5 /* ViewController.swift in Sources */,
+				69F0C0A2266D241300FCF2D5 /* SceneDelegate.swift in Sources */,
+				69F0C0E6266D278400FCF2D5 /* Slide.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F0C0B1266D241600FCF2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F0C0BA266D241600FCF2D5 /* vonder_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F0C0BC266D241600FCF2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F0C0C5266D241600FCF2D5 /* vonder_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69F0C0B7266D241600FCF2D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69F0C09B266D241300FCF2D5 /* vonder-app */;
+			targetProxy = 69F0C0B6266D241600FCF2D5 /* PBXContainerItemProxy */;
+		};
+		69F0C0C2266D241600FCF2D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69F0C09B266D241300FCF2D5 /* vonder-app */;
+			targetProxy = 69F0C0C1266D241600FCF2D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69F0C0A5266D241300FCF2D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69F0C0A6266D241300FCF2D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69F0C0AD266D241600FCF2D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69F0C0AE266D241600FCF2D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69F0C0C7266D241600FCF2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69F0C0C8266D241600FCF2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69F0C0CA266D241600FCF2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0DC8CDE870DF535A73CCB28 /* Pods-vonder-app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2GBWZNK28;
+				INFOPLIST_FILE = "vonder-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vonder.vonder-app.vonder-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69F0C0CB266D241600FCF2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69DF25ECFC7A0E39476B2208 /* Pods-vonder-app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2GBWZNK28;
+				INFOPLIST_FILE = "vonder-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vonder.vonder-app.vonder-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69F0C0CD266D241600FCF2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "vonder-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vonder.vonder-app.vonder-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vonder-app.app/vonder-app";
+			};
+			name = Debug;
+		};
+		69F0C0CE266D241600FCF2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "vonder-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vonder.vonder-app.vonder-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vonder-app.app/vonder-app";
+			};
+			name = Release;
+		};
+		69F0C0D0266D241600FCF2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "vonder-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vonder.vonder-app.vonder-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vonder-app";
+			};
+			name = Debug;
+		};
+		69F0C0D1266D241600FCF2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "vonder-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vonder.vonder-app.vonder-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vonder-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69F0C097266D241300FCF2D5 /* Build configuration list for PBXProject "vonder-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F0C0C7266D241600FCF2D5 /* Debug */,
+				69F0C0C8266D241600FCF2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F0C0C9266D241600FCF2D5 /* Build configuration list for PBXNativeTarget "vonder-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F0C0CA266D241600FCF2D5 /* Debug */,
+				69F0C0CB266D241600FCF2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F0C0CC266D241600FCF2D5 /* Build configuration list for PBXNativeTarget "vonder-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F0C0CD266D241600FCF2D5 /* Debug */,
+				69F0C0CE266D241600FCF2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F0C0CF266D241600FCF2D5 /* Build configuration list for PBXNativeTarget "vonder-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F0C0D0266D241600FCF2D5 /* Debug */,
+				69F0C0D1266D241600FCF2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69F0C0A8266D241300FCF2D5 /* vonder_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69F0C0A9266D241300FCF2D5 /* vonder_app.xcdatamodel */,
+			);
+			currentVersion = 69F0C0A9266D241300FCF2D5 /* vonder_app.xcdatamodel */;
+			path = vonder_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 69F0C094266D241300FCF2D5 /* Project object */;
+}

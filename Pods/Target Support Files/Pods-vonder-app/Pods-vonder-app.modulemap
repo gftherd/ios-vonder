@@ -1,0 +1,6 @@
+framework module Pods_vonder_app {
+  umbrella header "Pods-vonder-app-umbrella.h"
+
+  export *
+  module * { export * }
+}
